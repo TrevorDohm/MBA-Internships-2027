@@ -1,0 +1,19 @@
+name: Check listings
+
+on:
+  pull_request:
+    paths: ["listings.json", "README.md", "scripts/**"]
+  push:
+    branches: [main]
+    paths: ["listings.json", "README.md", "scripts/**"]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate listings.json and confirm README.md is regenerated
+        run: python3 scripts/update_readme.py --check
