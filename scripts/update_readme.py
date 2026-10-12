@@ -48,12 +48,12 @@ def validate(listings):
             errors.append(f"{label}: status must be one of {sorted(STATUSES)}")
         if item.get("sponsorship", "unknown") not in SPONSORSHIP:
             errors.append(f"{label}: sponsorship must be one of {list(SPONSORSHIP)}")
-        posted = item.get("date_posted")
-        if posted:
-            try:
-                date.fromisoformat(posted)
-            except ValueError:
-                errors.append(f"{label}: date_posted must be YYYY-MM-DD")
+        for field in ("date_posted", "deadline"):
+            if item.get(field):
+                try:
+                    date.fromisoformat(item[field])
+                except (TypeError, ValueError):
+                    errors.append(f"{label}: {field} must be YYYY-MM-DD")
     return errors
 
 
@@ -75,6 +75,15 @@ def posted_cell(item):
     if not posted:
         return "—"
     return date.fromisoformat(posted).strftime("%b %d")
+
+
+def notes_cell(item):
+    notes = cell(item.get("notes") or "")
+    # Deadlines lead the notes; once a role is closed they no longer matter.
+    if item.get("deadline") and item["status"] != "closed":
+        d = date.fromisoformat(item["deadline"])
+        notes = f"**Apply by {d:%b} {d.day}.** {notes}".strip()
+    return notes
 
 
 def render_table(rows):
@@ -109,7 +118,7 @@ def render_table(rows):
                     cell(r.get("pay") or "—"),
                     SPONSORSHIP[r.get("sponsorship", "unknown")],
                     posted_cell(r),
-                    cell(r.get("notes") or ""),
+                    notes_cell(r),
                 ]
             )
             + " |"

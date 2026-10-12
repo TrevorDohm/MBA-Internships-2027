@@ -52,6 +52,11 @@ body:
       label: Date posted (if known)
       placeholder: 2026-10-01
   - type: input
+    id: deadline
+    attributes:
+      label: Application deadline (only if the posting states one)
+      placeholder: 2026-10-31
+  - type: input
     id: pay
     attributes:
       label: Pay (only if it's on the posting)
@@ -68,4 +73,4 @@ body:
     id: notes
     attributes:
       label: Notes
-      description: Anything MBA-specific, like "on-campus recruiting only", "via Consortium", "requires a technical background", or "deadline Oct 31".
+      description: Anything MBA-specific, like "on-campus recruiting only", "via Consortium", or "requires a technical background". Put a stated closing date in the deadline field above.
