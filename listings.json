@@ -210,7 +210,7 @@
     "status": "expected",
     "pay": null,
     "sponsorship": "unknown",
-    "notes": "No 2027 MBA posting found. Meta previously posted a 12-wk 'Product Marketing Manager Intern, MBA' (Business Product Marketing); those listings are now expired."
+    "notes": "No 2027 MBA posting found. Meta previously posted a 12-wk 'Product Marketing Manager Intern, MBA' (Business Product Marketing); those listings are now expired. As of 2026-10-12, Meta's live Summer 2027 intern postings are engineering/PhD/data roles only."
   },
   {
     "company": "Microsoft",
@@ -1498,5 +1498,179 @@
     "pay": null,
     "sponsorship": "unknown",
     "notes": "Prior cycles: Dell posted Product Management MBA Internship and Product Marketing MBA intern roles. Current summer 2027 reqs are undergrad/supply chain only."
+  },
+  {
+    "company": "IBM",
+    "role": "Software Strategy and M&A Summer Intern",
+    "category": "Strategy & BizOps",
+    "locations": [
+      "Cambridge, MA"
+    ],
+    "url": "https://careers.ibm.com/careers/JobDetail?jobId=130031",
+    "date_posted": null,
+    "status": "open",
+    "pay": null,
+    "sponsorship": "unknown",
+    "notes": "MBA at a top school required. Posting text says 'graduating in May 2027', which may be carried over from last cycle; confirm Class of 2028 eligibility. Software GTM & M&A strategy team. Hybrid."
+  },
+  {
+    "company": "IBM",
+    "role": "AI-First Transformation – Strategy Consultant Intern",
+    "category": "Strategy & BizOps",
+    "locations": [
+      "New York, NY"
+    ],
+    "url": "https://careers.ibm.com/careers/JobDetail?jobId=133909",
+    "date_posted": null,
+    "status": "open",
+    "pay": null,
+    "sponsorship": "unknown",
+    "notes": "Pursuing an MBA or similar grad degree (e.g. MS Finance/Econ). IBM's internal AI-First Transformation org (value creation, AI governance, enablement). Dates not stated. Hybrid."
+  },
+  {
+    "company": "IBM",
+    "role": "2027 FLDP Summer Intern (Finance Leadership Development Program)",
+    "category": "Finance & Corp Dev",
+    "locations": [
+      "Armonk, NY"
+    ],
+    "url": "https://careers.ibm.com/careers/JobDetail?jobId=128929",
+    "date_posted": null,
+    "status": "open",
+    "pay": null,
+    "sponsorship": "no",
+    "notes": "Requires current MBA enrollment. Summer finance intern; strong performers considered for full-time FLDP. No sponsorship now or in future. Hybrid."
+  },
+  {
+    "company": "JPMorgan Chase",
+    "role": "2027 Chase Associate Program - Summer Associate (New York)",
+    "category": "PM",
+    "locations": [
+      "New York, NY"
+    ],
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210766078",
+    "date_posted": "2026-07-07",
+    "status": "open",
+    "pay": "$145,000/yr (annualized, New York)",
+    "sponsorship": "no",
+    "notes": "MBA/Master's grad Dec 2027–Jun 2028, 3+ yrs exp. 9-week CAP summer; placed in Product, Strategy, Data & Analytics, or Program Mgmt (incl. Digital Product & Experience)."
+  },
+  {
+    "company": "JPMorgan Chase",
+    "role": "2027 Chase Associate Program - Summer Associate (OH, TX, DE)",
+    "category": "PM",
+    "locations": [
+      "Columbus, OH",
+      "Plano, TX",
+      "Wilmington, DE"
+    ],
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210767069",
+    "date_posted": "2026-07-08",
+    "status": "open",
+    "pay": null,
+    "sponsorship": "no",
+    "notes": "MBA/Master's grad Dec 2027–Jun 2028, 3+ yrs exp. 9-week CAP summer; Product, Strategy, Data & Analytics, or Program Mgmt tracks across Chase businesses."
+  },
+  {
+    "company": "Bank of America",
+    "role": "Strategy & Management Summer Associate Program - 2027",
+    "category": "Strategy & BizOps",
+    "locations": [
+      "New York, NY",
+      "Charlotte, NC",
+      "Boston, MA"
+    ],
+    "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14832/strategy-management-summer-associate-program-2027-multiple-locations",
+    "date_posted": null,
+    "status": "open",
+    "pay": null,
+    "sponsorship": "no",
+    "notes": "Full-time MBA/master's grad Dec 2027–Aug 2028, 3-5 yrs exp. Strategy & Business Ventures (Product, Digital, FinTech, Small Business).",
+    "deadline": "2026-10-16"
+  },
+  {
+    "company": "Toast",
+    "role": "MBA Product Manager Intern",
+    "category": "PM",
+    "locations": [
+      "Boston, MA"
+    ],
+    "url": "https://careers.toasttab.com/",
+    "date_posted": null,
+    "status": "expected",
+    "pay": null,
+    "sponsorship": "unknown",
+    "notes": "Toast posted an MBA Product Manager Intern (Boston, in-office) in Oct 2025 for Summer 2026, removed Dec 2025. No 2027 posting live on Greenhouse as of 2026-10-11."
+  },
+  {
+    "company": "CrowdStrike",
+    "role": "MBA Product Manager Intern",
+    "category": "PM",
+    "locations": [
+      "United States"
+    ],
+    "url": "https://www.crowdstrike.com/en-us/careers/",
+    "date_posted": null,
+    "status": "expected",
+    "pay": null,
+    "sponsorship": "unknown",
+    "notes": "MBA PM intern posted for Summer 2025 (MBA grad Dec 2025–Jun 2026, 3+ yrs exp) and again for Summer 2026. Not yet live on CrowdStrike's Workday as of 2026-10-11."
+  },
+  {
+    "company": "Epic Games",
+    "role": "Product Management Intern (Fortnite Engagement)",
+    "category": "PM",
+    "locations": [
+      "Cary, NC"
+    ],
+    "url": "https://epicgames.com/careers/jobs/6161289004?gh_jid=6161289004",
+    "date_posted": "2026-09-29",
+    "status": "open",
+    "pay": null,
+    "sponsorship": "unknown",
+    "notes": "Requires current MBA student w/ prior PM/strategy/consulting experience. Flexible 2027 start; rolling recruitment. Must be authorized to work in posting location."
+  },
+  {
+    "company": "General Motors",
+    "role": "2027 Summer Intern - Digital Product: Product Management (MBA)",
+    "category": "PM",
+    "locations": [
+      "Warren, MI",
+      "Austin, TX"
+    ],
+    "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Digital-Product--Product-Management--MBA-_JR-202620538",
+    "date_posted": "2026-09-18",
+    "status": "open",
+    "pay": null,
+    "sponsorship": "no",
+    "notes": "Customer Experience Platforms (CXP) PM team; MBA/grad students graduating Aug 2027 or later. 12 weeks, starts May 24 or Jun 14, 2027; hybrid 3 days/wk; relocation stipend."
+  },
+  {
+    "company": "Starbucks",
+    "role": "MBA Internship Program - Digital Customer Experience / Product",
+    "category": "PM",
+    "locations": [
+      "Seattle, WA"
+    ],
+    "url": "https://careers.starbucks.com/discover-opportunities/internships/",
+    "date_posted": null,
+    "status": "expected",
+    "pay": null,
+    "sponsorship": "unknown",
+    "notes": "Starbucks runs a paid 10-week MBA summer internship at Seattle HQ; MBA tracks listed include digital customer experience & product experience. Prior MBA product intern postings (2022). Apps open in fall."
+  },
+  {
+    "company": "Dropbox",
+    "role": "Product Marketing Intern (MBA)",
+    "category": "PMM & GTM",
+    "locations": [
+      "Remote (US)"
+    ],
+    "url": "https://www.dropbox.jobs/",
+    "date_posted": null,
+    "status": "expected",
+    "pay": null,
+    "sponsorship": "unknown",
+    "notes": "Prior cycle: Summer 2025 Product Marketing Intern (Dropbox Dash) required current MBA students. No 2027 intern posting on Dropbox's Greenhouse board as of Oct 2026."
   }
 ]

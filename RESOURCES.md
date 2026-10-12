@@ -126,7 +126,7 @@ All links checked 2026-10-12.
 | School | STEM status | Source |
 |---|---|---|
 | HBS | MBA reclassified as STEM from the Class of 2025 | [HBS news](https://www.hbs.edu/news/releases/Pages/stem-mba.aspx) |
-| Stanford GSB | — (no school page confirming it was found) | — |
+| Stanford GSB | MBA and MSx STEM-designated (since 2020; GSB's recruiter page now redirects, statement read via search index) | [GSB: Hiring International Students](https://www.gsb.stanford.edu/organizations/recruit/strategies-resources/think-globally); [Stanford Daily, 2020](https://www.stanforddaily.com/2020/05/25/gsb-designates-mba-and-msx-degrees-as-stem/) |
 | Wharton | **Only some majors** (those with a STEM CIP code) | [Wharton majors](https://mba-inside.wharton.upenn.edu/majors/) |
 | Booth | Entire MBA | [Booth](https://www.chicagobooth.edu/why-booth/stories/chicago-booth-stem-mba) |
 | Kellogg | MBA degrees listed under CIP 52.1301 | [Kellogg](https://www.kellogg.northwestern.edu/companies-recruiters/hire-kellogg-mbas/hiring-international-students/) |
