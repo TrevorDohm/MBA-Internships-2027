@@ -74,3 +74,7 @@ A [weekly workflow](.github/workflows/check-links.yml) runs it every Monday and 
 ## Closing roles
 
 When a posting comes down, set `"status": "closed"` instead of deleting it. Closed roles show up struck through with a 🔒, which helps next year's class see who hired and when.
+
+## License
+
+This project is released under [CC0 1.0](LICENSE). By contributing, you agree to release your contribution under the same terms.

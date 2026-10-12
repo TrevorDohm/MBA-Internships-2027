@@ -190,3 +190,7 @@ Details, sources and school-specific notes are in [RESOURCES.md](RESOURCES.md#1-
 - [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions): new-grad roles
 
 _This list is maintained by hand and may lag postings. Always confirm details on the company's site before applying._
+
+## 📄 License
+
+[CC0 1.0](LICENSE): this list is in the public domain. Copy it, share it, or build on it however you like.
