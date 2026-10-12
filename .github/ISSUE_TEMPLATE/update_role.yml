@@ -1,0 +1,34 @@
+name: ✏️ Update or close a role
+description: Report a closed posting, broken link, or wrong info
+title: "Update: <Company> - <Role>"
+labels: ["update"]
+body:
+  - type: input
+    id: company
+    attributes:
+      label: Company
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Role (as it appears in the list)
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What changed?
+      options:
+        - Posting closed
+        - Link broken / moved
+        - Posting is now open (was "not yet open")
+        - Info is wrong (pay, location, etc.)
+        - Should be removed (not an MBA role, duplicate, etc.)
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: New link, corrected info, or how you know it closed.

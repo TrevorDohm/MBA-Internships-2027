@@ -1,0 +1,47 @@
+name: Weekly link check
+
+on:
+  schedule:
+    - cron: "17 14 * * 1" # Mondays, ~10am US Eastern
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check links and deadlines
+        id: check
+        run: |
+          set +e
+          python3 scripts/check_links.py --strict > report.md
+          status=$?
+          set -e
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+          # A crash also exits 1, so make sure a report was actually written.
+          grep -q '^## Link check' report.md || { echo "check_links.py failed"; exit 1; }
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+      - name: Open or update the "Weekly link check" issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATUS: ${{ steps.check.outputs.status }}
+          TITLE: Weekly link check
+        run: |
+          number=$(gh issue list --state open --search "in:title \"$TITLE\"" \
+            --json number,title --jq "map(select(.title == \"$TITLE\")) | .[0].number // empty")
+          if [ "$STATUS" = "1" ]; then
+            if [ -n "$number" ]; then
+              gh issue edit "$number" --body-file report.md
+            else
+              gh issue create --title "$TITLE" --body-file report.md
+            fi
+          elif [ -n "$number" ]; then
+            gh issue close "$number" --comment "All clear as of $(date -u +%F). Closing."
+          fi

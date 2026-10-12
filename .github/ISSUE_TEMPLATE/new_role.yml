@@ -1,0 +1,76 @@
+name: ➕ New internship
+description: Add a Summer 2027 MBA tech internship to the list
+title: "New role: <Company> - <Role>"
+labels: ["new role"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for adding a role! Please link to the **company's own posting** (careers site / Greenhouse / Lever / Workday), not a LinkedIn repost or aggregator.
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: Google
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Role title (as posted)
+      placeholder: MBA Product Manager Intern, Summer 2027
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - PM
+        - Strategy & BizOps
+        - PMM & GTM
+        - Finance & Corp Dev
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Application link
+      placeholder: https://careers.google.com/jobs/results/...
+    validations:
+      required: true
+  - type: input
+    id: locations
+    attributes:
+      label: Location(s)
+      placeholder: Mountain View, CA; New York, NY; Remote
+    validations:
+      required: true
+  - type: input
+    id: date_posted
+    attributes:
+      label: Date posted (if known)
+      placeholder: 2026-10-01
+  - type: input
+    id: deadline
+    attributes:
+      label: Application deadline (only if the posting states one)
+      placeholder: 2026-10-31
+  - type: input
+    id: pay
+    attributes:
+      label: Pay (only if it's on the posting)
+      placeholder: $55–$65/hr
+  - type: dropdown
+    id: sponsorship
+    attributes:
+      label: Does the posting say it sponsors visas / welcomes international students?
+      options:
+        - Unknown / not stated
+        - "Yes"
+        - "No"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything MBA-specific, like "on-campus recruiting only", "via Consortium", or "requires a technical background". Put a stated closing date in the deadline field above.
